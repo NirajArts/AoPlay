@@ -22,6 +22,7 @@ const Trending = () => {
       <p className="text-center mb-6 text-lg text-gray-600">
         Elevate your gaming experience with our hottest picks
       </p>
+      
       <div className="flex flex-wrap justify-center gap-6">
         {latestCollections.map((collection, index) => (
           <div key={index} className="w-full sm:w-1/2 md:w-1/3 p-4">
