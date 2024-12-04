@@ -3,6 +3,9 @@ import { GlitchText } from '../components/GlitchText';
 import { motion } from 'framer-motion';
 import { GameCard } from '../components/GameCard';
 import Video from '../../public/assets/BG_Vid.mp4'
+import Trending from '../components/trending';
+import Sport from '../components/sport';
+import Gallery from '../components/category';
 
 const games = [
   {
@@ -69,6 +72,9 @@ export const LandingPage: React.FC = () => {
           </motion.div>
         </div>
       </section>
+      <Trending/>
+      <Gallery/>
+      <Sport/>
 
       <section className="bg-gray-900 py-20 px-4">
         <motion.div

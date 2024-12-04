@@ -6,6 +6,7 @@ import { Marketplace } from './pages/Marketplace';
 import { Documentation } from './pages/Documentation';
 import { ArweaveWalletKit } from "arweave-wallet-kit";
 import { Footer } from './components/footer';
+import {nabar} from './components/Navigation';
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
             ],
             ensurePermissions: true,
           }}
-          // theme={{
-          //   displayTheme: "light",
-          // }}
+          theme={{
+            displayTheme: "light",
+          }}
         >
       <Navigation />
       <Routes>

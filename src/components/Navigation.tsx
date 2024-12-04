@@ -21,7 +21,7 @@ export const Navigation: React.FC = () => {
             <Link to="/" className="text-white font-bold text-xl">aoPlay</Link>
             <div className="flex items-center space-x-2 text-yellow-400 text-sm">
               <Coins size={16} />
-              <span>1,337 aoCoins</span>
+              <span>1,337 shards</span>
             </div>
           </div>
           <div className="flex space-x-8">
