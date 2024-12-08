@@ -1,11 +1,10 @@
-import Video from "../../public/assets/BG_Vid.mp4";
 
 const latestCollections = [
-  { src: "/assets/image.png", name: "PacMan", link: "/collection1" },
+  { src: "/assets/dd.jpg", name: "Cricket", link: "https://pac-man-v8br.vercel.app/" },
   {
-    src: "/assets/GuessNDie.png",
-    name: "Guess & Survive",
-    link: "/collection2",
+    src: "/assets/football.jpg",
+    name: "FIFA 2024",
+    link: "https://hangman-two-peach.vercel.app/",
   },
 ];
 
